@@ -1,12 +1,16 @@
 System Architecture
 1. High-Level Architecture Overview
 
+![System Architecture](images/system-architecture.png)
+
 The application follows a client-server architecture consisting of a frontend,
 backend API, and a database. The frontend is built using React and communicates
 with the backend through RESTful APIs. The backend is developed using Node.js
 with Express and handles business logic, authentication, authorization, and
 tenant isolation. PostgreSQL is used as the primary database, storing all
 tenant-specific and system data.
+
+![Database ERD](images/database-erd.png)
 
 Docker is used to containerize the application components, ensuring consistency
 across development and deployment environments.
