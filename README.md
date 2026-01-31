@@ -3,10 +3,6 @@
 ## Project Overview
 A dockerized multi-tenant SaaS application built with Node.js, Express, PostgreSQL, and React. This project demonstrates strict data isolation, role-based access control, and scalable architecture pattern.
 
-### 🎥 Demo Video
-[Link to YouTube Demo Video](https://youtube.com/...) **(Start Here)**
-
----
 
 ## 🚀 Quick Start (Docker)
 
